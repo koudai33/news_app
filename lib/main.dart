@@ -11,6 +11,7 @@ class App extends StatelessWidget {
           appBar: AppBar(
             title: Text("news"),
           ),
+          body: Text("koudai"),
         ));
   }
 }
