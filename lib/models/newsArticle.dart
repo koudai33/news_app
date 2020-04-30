@@ -10,8 +10,10 @@ class NewsArticle {
     return NewsArticle(
       title: json["title"],
       description: json["desctiption"],
-      urlToImage:json["urlToImage"],
+      urlToImage: json["urlToImage"],
       url: json["url"],
-      );
+    );
   }
+
+  static fromJSON(article) {}
 }
